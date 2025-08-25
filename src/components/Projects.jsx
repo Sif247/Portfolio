@@ -72,7 +72,7 @@ function Projects() {
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="mb-4">{project.description}</p>
 
-              {/* Tecnologie usate */}
+              
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.technologies.map((tech, i) => (
                   <span
@@ -86,7 +86,7 @@ function Projects() {
               </div>
             </div>
 
-            {/* Link progetto a destra */}
+            
             <div className="flex justify-end">
               <a 
                 href={project.link} 

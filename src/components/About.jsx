@@ -19,7 +19,7 @@ function About() {
 
   return (
     <>
-      {/* EXPERIENCE */}
+      
       <section className="bg-gray-900 text-gray-300 px-6 py-16 flex flex-col items-center">
         <h2 className="text-5xl font-extrabold tracking-wide text-blue-500 mb-3">
           EXPERIENCE
@@ -28,7 +28,7 @@ function About() {
           Il mio percorso professionale: crescita, sfide e progetti che mi hanno formato.
         </p>
 
-        {/* MOBILE: timeline a sinistra */}
+        
         <div className="w-full max-w-3xl md:hidden">
           {experiences.map((exp, i) => (
             <motion.div
@@ -49,7 +49,7 @@ function About() {
           ))}
         </div>
 
-        {/* DESKTOP: timeline centrale + card alternate */}
+        
         <div className="hidden md:block relative w-full max-w-5xl">
           <div className="absolute left-1/2 top-0 -translate-x-1/2 h-full w-px bg-gray-700"></div>
           <div className="space-y-10">

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-// Import SVG locali per le icone non disponibili su CDN
+
 import JavaIcon from "../assets/icons/java.svg";
 import CSharpIcon from "../assets/icons/csharp.svg";
 import CssIcon from "../assets/icons/css3.svg";

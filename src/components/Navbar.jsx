@@ -17,13 +17,13 @@ function Navbar() {
     <nav className="bg-gray-900 shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         
-        {/* Logo e titolo cliccabili */}
+        
         <Link to="/" className="flex items-center gap-3">
           <img src={logo} alt="Logo" className="h-24 w-auto" />
           <h1 className="text-white text-2xl font-bold tracking-wide">Software Engineer</h1>
         </Link>
 
-        {/* Menu desktop */}
+        
         <ul className="hidden md:flex gap-8 text-gray-300 font-medium">
           {links.map((link) => (
             <li key={link.name}>
@@ -39,7 +39,7 @@ function Navbar() {
           ))}
         </ul>
 
-        {/* Hamburger mobile */}
+        
         <div
           className="md:hidden text-gray-300 cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
@@ -65,7 +65,7 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Menu mobile */}
+      
       {isOpen && (
         <ul className="md:hidden bg-gray-800 text-gray-300 flex flex-col gap-4 px-6 py-4">
           {links.map((link) => (
