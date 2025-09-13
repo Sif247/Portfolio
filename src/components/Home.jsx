@@ -8,10 +8,10 @@ function Home() {
       
       <div className="flex-1 text-center md:text-left">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 md:mb-6">
-          Ciao, sono <span className="text-blue-500">Sifdine Ismail</span>
+          Ciao, sono<span className="text-blue-500"> SIF247</span>
         </h1>
         <p className="text-gray-300 mb-6 md:mb-8 max-w-md md:max-w-lg mx-auto md:mx-0">
-          Sono un ingegnere informatico, Appassionato di tecnologia a 360°: sviluppo web, mobile, AI, embedded e database per progetti moderni e funzionali.  
+          Il mio nome è Ismail Sifdine, sono un ingegnere informatico, appassionato di tecnologia a 360°: sviluppo web, mobile, AI, embedded e database per progetti moderni e funzionali.  
           Esplora i miei progetti e scopri cosa posso fare!
         </p>
         <div className="flex justify-center md:justify-start gap-4">

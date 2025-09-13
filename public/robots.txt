@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sif247.netlify.app/sitemap.xml
