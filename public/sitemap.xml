@@ -1,19 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
   <url>
     <loc>https://sif247.netlify.app/</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://sif247.netlify.app/progetti</loc>
-    <priority>0.8</priority>
-  </url>
+
+  <!-- About -->
   <url>
     <loc>https://sif247.netlify.app/about</loc>
     <priority>0.8</priority>
   </url>
+
+  <!-- Projects -->
   <url>
-    <loc>https://sif247.netlify.app/contatti</loc>
+    <loc>https://sif247.netlify.app/projects</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contacts -->
+  <url>
+    <loc>https://sif247.netlify.app/contacts</loc>
     <priority>0.7</priority>
   </url>
+
+  <!-- Eventuali progetti singoli -->
+  <url>
+    <loc>https://sif247.netlify.app/projects/portfolio-website</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sif247.netlify.app/projects/bmi-calculator</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sif247.netlify.app/projects/flappy-bird</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sif247.netlify.app/projects/pokedex-filtrabile</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sif247.netlify.app/projects/leetcode</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sif247.netlify.app/projects/stm32</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
+
