@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="/public/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sifdine Ismail – Portfolio (Sif247)</title>
 
@@ -26,20 +26,24 @@
     <meta name="twitter:description" content="Scopri i progetti e le competenze di Sifdine Ismail (Sif, Isma, Sif247)." />
     <meta name="twitter:image" content="https://sif247.netlify.app/preview.png" />
 
+    <!-- Site name for search engines -->
+    <meta name="application-name" content="Sif247 Portfolio" />
+    <meta name="apple-mobile-web-app-title" content="Sif247 Portfolio" />
+    <meta property="og:site_name" content="Sif247 Portfolio" />
   </head>
   <body>
-
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-    <input type="hidden" name="form-name" value="contact" />
-    <p>
-      <label>Don’t fill this out: <input name="bot-field" /></label>
-    </p>
-    <input type="text" name="name" />
-    <input type="email" name="email" />
-    <textarea name="message"></textarea>
-  </form>
+      <input type="hidden" name="form-name" value="contact" />
+      <p>
+        <label>Don’t fill this out: <input name="bot-field" /></label>
+      </p>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
   
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+
